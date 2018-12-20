@@ -1,0 +1,1635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+    
+	<title>Team Magellan Transaction Portal - Process</title>
+
+	<link rel="shortcut icon" href="assets/images/gt_favicon.png">
+	
+	<link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link href="https://cdn.rawgit.com/noelboss/featherlight/1.5.0/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+
+	<!-- Custom styles for our template -->
+	<link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen" >
+	<link rel="stylesheet" href="assets/css/main.css">
+
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="assets/js/html5shiv.js"></script>
+	<script src="assets/js/respond.min.js"></script>
+	<![endif]-->
+    <style type="text/css">
+    .bottom {
+        position:fixed; 
+		padding: 15px;
+        bottom:0; 
+        left:0; 
+		
+    }
+
+@media  (min-width: 1600px) {
+    .bottom {
+        position:fixed; 
+		padding: 15px;
+        bottom:0; 
+        left:0; 
+		text-align: left;
+		
+    }
+	#head {
+		background-size: cover; min-height: 1300px;
+		}
+}
+
+body {
+	/*background: url(assets/images/Process_BG_Beach.jpg); background-size: cover; min-height: 800px;  */
+	
+	background: url(assets/images/rope_on_dock_bg_smallest.jpg) repeat-x center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	}        
+
+#head {
+	/*background: url(assets/images/Process_BG_Beach.jpg); background-size: cover; min-height: 800px;  */
+	
+	background:transparent; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    font-weight: 500;
+	}
+	
+	/*--------------------------------------*/
+.container {position: relative;}        
+	
+	ul {
+ margin: 0;
+ padding: 0;
+ list-style: none;
+ width: 300px;
+ text-align: left;
+ }
+ 
+ ul li {
+ position: relative;
+ }
+ 
+ li ul {
+ position: absolute;
+ left: 299px;
+ top: 0;
+ display: none;
+ }
+ 
+ ul li a {
+ display: block;
+ text-decoration: none;
+ color: #fff;
+ background-image: url(assets/images/MainButton_BG.png);
+ padding: 15px;
+ /* border: 2px solid #fff; */
+ border-bottom: 0;
+ border-right: 0;
+ border-left: 0;
+ font-family: arial;
+ }
+ 
+ .submenu {
+ background-image: url(assets/images/Button_BG_Orange.png);
+ border: 0;
+ }
+ 
+ ul li a:hover {
+ display: block;
+ text-decoration: none;
+ color: #00467f;
+ background-image: url(assets/images/Button_BG_Orange.png);
+ padding: 15px;
+ font-family: arial;
+ }
+ 
+        
+ul.intro-text {
+ margin: 0;
+ padding: 0;
+ list-style:square;
+ text-align: left;
+ width: 100%;
+ }
+ 
+ ul.intro-text li {
+ position: relative;
+ margin: 4px 0 4px 45px;
+ padding: 0;    
+ } 
+        
+ 
+ 
+ /* Fix IE. Hide from IE Mac */
+* html ul li { float: left; }
+* html ul li a { height: 1%; }
+/* End */
+
+ 
+ li:hover ul { display: block; }
+	/*--------------------------------------*/
+	
+	
+	#head .container .row {
+		position: relative;
+		left: 10%;
+	}
+	
+	#head {
+		
+		padding-top: 0px;}
+	
+	@media  (max-width: 1275px) {
+    .bottom {
+        position:absolute; 
+        top:625px; 
+		left: 0;    }
+
+}
+
+#head .container .row {
+		position: relative;
+		left: 10%;
+	}
+	
+	#head {
+		
+		padding-top: 0px;}
+
+#treasure {
+	background:url(assets/images/treasure_path.png); background-repeat: no-repeat; background-size: cover; 
+	height:503px;
+	width: 1200px;
+	position:relative; 
+	top: 50px;
+	left:5%;
+	float: left;
+	
+	}
+	
+.pagesection {
+	background: url(assets/images/Process_Button_Sprite.png);
+	width:375;
+	height: 100px;
+	background-repeat: no-repeat;
+	position: relative;
+	left:10%;
+	top: 25px;
+	width: 900px;
+	}
+/*-------------COIN BUTTONS----------------------------------------------*/
+/*-------------COIN BUTTONS----------------------------------------------*/
+
+a.coin01 {
+	display: block;
+	text-align:right;
+	width: 100px;
+	height: 100px;
+	text-decoration: none;
+	background: url(assets/images/process_coin-01_sprite.png);
+	position: relative;
+	top: 105px;
+	left:70px;
+	}
+
+a.coin01:hover {
+	background-position: 0 -100px;
+	}
+	
+	.displace {
+	position: absolute;
+	left: -5000px;
+	}
+	
+
+/*---------COIN 02 ---------------------------------*/	
+	
+a.coin02 {
+	display: block;
+	text-align:right;
+	width: 230px;
+	height: 130px;
+	text-decoration: none;
+	background: url(assets/images/process_coin-02_sprite.png);
+	position: relative;
+	top: 40px;
+	left:250px;
+	}
+
+a.coin02:hover {
+	background-position: 0 -130px;
+	}
+	
+	
+	
+	/*---------COIN 03 ---------------------------------*/
+	
+	a.coin03 {
+	display: block;
+	text-align:right;
+	width: 260px;
+	height: 130px;
+	text-decoration: none;
+	background: url(assets/images/process_coin-03_sprite.png);
+	position: relative;
+	top: -80px;
+	left:525px;
+	}
+
+a.coin03:hover {
+	background-position: 0 -130px;
+	}
+	
+	
+	
+	
+	
+	/*---------COIN 04 ---------------------------------*/
+	
+	a.coin04 {
+	display: block;
+	text-align:right;
+	width: 140px;
+	height: 120px;
+	text-decoration: none;
+	background: url(assets/images/process_coin-04_sprite.png);
+	position: relative;
+	top: -280px;
+	left:850px;
+	}
+
+a.coin04:hover {
+	background-position: 0 -120px;
+	}
+	
+	
+	
+	
+	
+	/*---------COIN 05 ---------------------------------*/
+	
+	a.coin05 {
+	display: block;
+	text-align:right;
+	width: 170px;
+	height: 140px;
+	text-decoration: none;
+	background: url(assets/images/process_coin-05_sprite.png);
+	position: relative;
+	top: -190px;
+	left:725px;
+	}
+
+a.coin05:hover {
+	background-position: 0 -140px;
+	}
+	
+	.displace {
+	position: absolute;
+	left: -5000px;
+	}
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+/*-------------COIN BUTTONS----------------------------------------------*/
+/*-------------COIN BUTTONS----------------------------------------------*/
+        
+        
+.sticky-left {
+    position: fixed;
+    left: 0;
+    top: 17%;
+    width: 15%;
+}
+        
+.sticky-left-btm {
+    position: fixed;
+    left: 0;
+    bottom: 1%;
+    width: 15%;
+}        
+        
+.sticky-left table { color: #00467F; text-align: left; font-size: 13px; width: 100%;}
+        
+    .sticky-left table tr:first-child {
+        background: #00457F !important;
+        color: #fff !important;
+        text-align: center !important;
+        font-weight: bold;
+    }    
+        
+    /* .sticky-left table tr:nth-child(even) {
+        background: #FDDFAF;
+    } 
+    .sticky-left table tr:nth-child(odd) {
+        background: #FEEFD7;
+    }*/
+        
+    .sticky-left table tr {
+        border-bottom: 1px solid #FDFDFC;
+    }  
+        
+    .sticky-left table.nav tr {
+        background: #FEEFD7;
+    }
+    
+    .sticky-left table.roles tr {
+        background: #FEEFD7;
+    }
+        
+    .sticky-left table.legend tr {
+        background: #FEEFD7;
+    }    
+        
+    .sticky-left table a {color:#00467F; text-decoration: none; display: block;} 
+    /*.sticky-left table.roles {color:#fff;} */    
+        
+.trans-nav {width: 100%; float: left; margin:0;background-color: #fff; box-shadow: 0px 1px 3px rgba(0,0,0,.5); position: relative; z-index: 99;}
+.trans-nav ul li a { background-image: none; display: block; width: 100%; height: 100%; padding: 0;}  
+.trans-nav ul li a span { display: none; background-image: none;}        
+    .trans-nav ul {display: inline-flex; width: 968px; height: 89px; margin: 0 auto; padding: 0;}
+        .trans-nav ul li.trans-nav1 {width: 190px; height: 89px; background: url('assets/images/trans-nav_01.jpg');}
+        .trans-nav ul li.trans-nav2 {width: 239px; height: 89px; background: url('assets/images/trans-nav_02.jpg');}
+        .trans-nav ul li.trans-nav3 {width: 232px; height: 89px; background: url('assets/images/trans-nav_03.jpg');}
+        .trans-nav ul li.trans-nav4 {width: 339px; height: 89px; background: url('assets/images/trans-nav_04.jpg');}
+        
+        .trans-nav ul li.trans-nav1:hover {background: url('assets/images/trans-nav-over_01.jpg');}
+            .trans-nav ul li.trans-nav1.checked {background: url('assets/images/trans-nav-checked_01.jpg');}
+            .trans-nav ul li.trans-nav1.checked:hover {background: url('assets/images/trans-nav-over_01.jpg');}
+        .trans-nav ul li.trans-nav2:hover {background: url('assets/images/trans-nav-over_02.jpg');}
+        .trans-nav ul li.trans-nav3:hover {background: url('assets/images/trans-nav-over_03.jpg');}
+        .trans-nav ul li.trans-nav4:hover {background: url('assets/images/trans-nav-over_04.jpg');}
+        
+        
+.overwrap {
+    margin-left: 15%;
+    display: block;
+    float: left;
+    width: 85%;
+    background-color: rgba(255,255,255,.7);
+    padding: 20px 1% 0 1%;
+}   
+        
+    .overwrap h2 {color: #00467F; padding: 8px 14px 4px 14px; margin:0; text-align: left; }
+        
+    .overwrap .intro-text {color: #00467F; padding: 0px 14px 14px 14px; margin:0; text-align: left;}    
+    
+    .vert-columns.titles div {
+        background: #00467F;
+        color: #fff;
+        text-align: center;
+        padding: 1% 1%;
+        margin: 0;
+        font-weight: bold;
+        font-size: 92%;
+        height: 61px;
+    }
+        
+        .staticnav {position: relative;}
+        .stickynav {position: fixed; top: 0; width:83%; z-index: 999;}
+        
+    .vert-columns.titles div:nth-child(even) {
+        background: #437FA9;
+    }
+        
+    .vert-columns.table td:nth-child(even) {
+        background: #f3f3f3;
+    } 
+    .vert-columns.table td:nth-child(odd) {
+        background: #dddddd;
+    }     
+        
+    .vert-columns.table div {
+       min-height:1500px; 
+    }
+        
+    .pre-loi .vert-columns.table div {
+       min-height:1300px; 
+    }    
+        
+    .post-loi .vert-columns.table div {
+       min-height:1900px; 
+    }
+        
+    .vote-sign .vert-columns.table div {
+       min-height:600px; 
+    }
+        
+    .post-close .vert-columns.table div {
+       min-height:500px; 
+    }    
+        
+    .vert-columns.table tr td {
+        color: #00467F;
+        text-align: left;
+        padding: 1%;
+        margin: 0;
+        font-size: 94%;
+    }
+    .vert-columns.table tr td {
+        border:none !important;
+    }
+    
+    .vert-columns.table {
+        margin: 0;
+        border-bottom: 1px solid #FDFDFC;
+    }    
+    
+    .vert-columns.table tr td {
+        width: 16.666667%;
+        vertical-align: top;
+    }
+    .vert-columns div.sixth {
+    width: 16.666667%;
+    display: block;
+        float:left;
+    }
+        
+    .vert-columns div.fifth {
+    width: 33.333333%;
+    display: block;
+        float:left;
+    }    
+
+.featherlight .featherlight-content {
+    background: #12487e;
+}    
+        
+font.role-highlight {
+    border: #00467f 1px solid;
+    padding: 0px 4px;
+}      
+
+
+
+.c.role-highlight, .nav3:hover, .nav3.nav-highlight {
+    background: #a8e08d !important;
+} 
+
+.ic.role-highlight, .nav4:hover, .nav4.nav-highlight {
+    background: #a8e08d !important;
+}  
+        
+.ml.role-highlight, .nav6:hover, .nav6.nav-highlight {
+    background: #a8e08d !important;
+} 
+        
+.sme.role-highlight, .nav7:hover, .nav7.nav-highlight {
+    background: #a8e08d !important;
+}
+
+.r.role-highlight, .nav1:hover, .nav1.nav-highlight {
+    background: #a8e08d !important;
+}        
+
+.l.role-highlight, .nav5:hover, .nav5.nav-highlight {
+    background: #a8e08d !important;
+}        
+
+.td.role-highlight, .nav2:hover, .nav2.nav-highlight {
+    background: #a8e08d !important;
+}        
+        
+.nav1, .nav2, .nav3, .nav4, .nav5, .nav6, .nav7 {
+    cursor: pointer;
+}  
+
+.bully:after {color:#a8e08d; font-size:1.15em; vertical-align: middle; content: ''; width: 12px; height: 12px; margin: 0 2px; border: 2px solid #a0a0a0; display: inline-block;} 
+        .bully-x:after {color:firebrick; content: 'x'; border:none; display: inline; padding:0 2px;} 
+
+.dimmer {opacity: .25;}        
+
+        
+a#pre-loi, a#post-loi, a#vote-sign, a#post-close {padding-top: 80px; margin-top: -80px; display: block; position: relative;}        
+        
+/*.nav-highlight {
+    background: #a8e08d !important;
+}*/         
+
+/*.r, .td, .l, .c, .ml, .ic, .sme {
+    background: #a8e08d;
+}*/        
+
+/*--------------------TOOLTIP----------------------------*/
+
+/* Hover tooltips */
+.field-tip {
+    position:relative;
+    cursor:help;
+}
+    .field-tip .tip-content {
+        position:absolute;
+        top:-60px; /* - top padding */
+        right:9999px;
+        width:400px;
+        margin-right:-240px; /* width + left/right padding */
+        padding:10px;
+        color:#12487d;
+        background:#FEEFD7;
+        -webkit-box-shadow:2px 2px 5px #aaa;
+           -moz-box-shadow:2px 2px 5px #aaa;
+                box-shadow:2px 2px 5px #aaa;
+        opacity:0;
+        -webkit-transition:opacity 250ms ease-out;
+           -moz-transition:opacity 250ms ease-out;
+            -ms-transition:opacity 250ms ease-out;
+             -o-transition:opacity 250ms ease-out;
+                transition:opacity 250ms ease-out;
+				padding:25px;
+        z-index: 99;
+   }
+        
+    .field-tip .tip-content.left {
+        width:400px;
+   }    
+        
+        
+        /* <http://css-tricks.com/snippets/css/css-triangle/> */
+         /*.field-tip .tip-content:before {
+            content:' '; 
+            position:absolute;
+            top:50%;
+            left:-16px; 
+            width:0;
+            height:0;
+            margin-top:-8px; 
+            border:8px solid transparent;
+            border-right-color:#FEEFD7;
+        }*/
+        .field-tip:hover .tip-content {
+            right:-155px;
+            opacity:1;
+        }
+        
+        .field-tip:hover .tip-content.left {
+            left:-405px;
+            opacity:1;
+        }
+        
+
+}
+
+@media  (min-width: 1200px) {
+	#head .container .row {
+		position: relative;
+		left: 50%;
+		text-align:center;
+		width: 1500px;
+	}
+	
+	}
+	
+	
+/*------------------TESTING MODAL WINDOW------------------------------*/
+
+#mask {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color: #5D5A5A;
+  display:none;
+}  
+#boxes .window {
+  position:absolute;
+  left:0;
+  top:0;
+  width:600px;
+  height:700px;
+  display:none;
+  z-index:9999;
+  padding:20px;
+}
+#boxes #dialog {
+  width:375px; 
+  height:203px;
+  padding:10px;
+  background-color:#01467f;
+  color: #fff;
+}
+
+/*------------------TESTING MODAL WINDOW------------------------------*/       
+                
+        
+</style>
+<!------------------MODAL SCRIPT------------------------------>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {	
+
+		var id = '#dialog';
+	
+		//Get the screen height and width
+		var maskHeight = $(document).height();
+		var maskWidth = $(window).width();
+	
+		//Set heigth and width to mask to fill up the whole screen
+		$('#mask').css({'width':maskWidth,'height':maskHeight});
+		
+		//transition effect		
+		$('#mask').fadeIn(1000);	
+		$('#mask').fadeTo("slow",0.8);	
+	
+		//Get the window height and width
+		var winH = $(window).height();
+		var winW = $(window).width();
+              
+		//Set the popup window to center
+		$(id).css('top',  winH/2-$(id).height()/2);
+		$(id).css('left', winW/2-$(id).width()/2);
+	
+		//transition effect
+		$(id).fadeIn(2000); 	
+	
+	//if close button is clicked
+	$('.window .close').click(function (e) {
+		//Cancel the link behavior
+		e.preventDefault();
+		
+		$('#mask').hide();
+		$('.window').hide();
+	});		
+	
+	//if mask is clicked
+	$('#mask').click(function () {
+		$(this).hide();
+		$('.window').hide();
+	});		
+	
+});
+    
+
+</script>
+
+<!------------------MODAL SCRIPT------------------------------>
+<script>
+function popupCenter(url, title, w, h) {
+var left = (screen.width/2)-(w/2);
+var top = (screen.height/2)-(h/2);
+return window.open(url, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width='+w+', height='+h+', top='+top+', left='+left);
+} 
+</script>
+<!----------------GOOGLE ANALYTICS--------------------------->
+<script type="text/javascript" src="js/google-analytics.js"></script>
+<!----------------GOOGLE ANALYTICS--------------------------->    
+
+<script type="text/javascript">
+$(document).ready(function() {  
+    $( "#pop1" ).tooltip({ content: '<img src="http://fortestage.com/MagellanStage/popups/images/resourcing.jpg" />' });
+});         
+</script>    
+    
+    
+	</head>
+
+<body class="home">
+<script>
+function popupCenter(url, title, w, h) {
+var left = (screen.width/2)-(w/2);
+var top = (screen.height/2)-(h/2);
+return window.open(url, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width='+w+', height='+h+', top='+top+', left='+left);
+} 
+</script>
+
+	<!-- Fixed navbar -->
+	<div class="navbar navbar-inverse" >
+		<div class="container">
+			<div class="navbar-header">
+				<!-- Button for smallest screens -->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+				<a class="navbar-brand" href="index.html"><img src="assets/images/Magellan_TP_Menu_Logo.png" alt="Progressus HTML5 template" class="img-responsive" width="60%"></a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav pull-right" style="border:0;">
+					
+					<li><a onclick="popupCenter('http://www.fortestage.com/Magellan/popups/site_admin.html', 'myPop1',590,175);" href="javascript:void(0);"><img src="assets/images/preserver_icon.png" width="20" height="20" style="margin-right:10px;" />SITE ADMIN</a></li>
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div>
+	</div> 
+	<!-- /.navbar -->
+
+	<!-- Header -->
+	<header id="head">
+    
+
+            
+            <div class="sticky-left">
+                
+                <table class="nav">
+                    <tr>
+                        <td colspan="2">Navigation</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" style="text-align:center;"><img src="assets/images/compass_ico.png" style="width:50%; height:auto;" /></td>
+                        <td><a href="#pre-loi">Pre-LOI</a></td>
+                    </tr>
+                    <tr>
+                        <td width="20%" style="text-align:center;"><img src="assets/images/compass_ico.png" style="width:50%; height:auto;" /></td>
+                        <td><a href="#post-loi">Post-LOI&mdash;Vote/Sign</a></td>
+                    </tr>
+                    <tr>
+                        <td width="20%" style="text-align:center;"><img src="assets/images/compass_ico.png" style="width:50%; height:auto;" /></td>
+                        <td><a href="#vote-sign">Vote/Sign&mdash;Fund/Close</a></td>
+                    </tr>
+                    <tr>
+                        <td width="20%" style="text-align:center;"><img src="assets/images/compass_ico.png" style="width:50%; height:auto;" /></td>
+                        <td><a href="#post-close">Post-Close</a></td>
+                    </tr>
+                </table>
+                <br />
+                <table class="roles">
+                    <tr>
+                       <td colspan="2" align="center">Role Abbreviations</td> 
+                    </tr>
+                    <tr class="nav1">
+                       <td width="50"><span class="bully"></span> <strong>R</strong></td> 
+                       <td>Recon</td>    
+                    </tr>
+                    <tr class="nav2">
+                       <td width="50"><span class="bully"></span> <strong>TD</strong></td> 
+                       <td>Transaction Director / Analysis / MI–6 / Deal Quarterback</td>    
+                    </tr>
+                    <tr class="nav3">
+                       <td width="50"><span class="bully"></span> <strong>C</strong></td> 
+                       <td>Conduit</td>    
+                    </tr>
+                    <tr class="nav4">
+                       <td width="50"><span class="bully"></span> <strong>IC</strong></td> 
+                       <td>Integration Coordinator</td>    
+                    </tr>
+                    <tr class="nav5">
+                       <td width="50"><span class="bully"></span> <strong>JLD</strong></td> 
+                       <td>Justice League Department (Department overseeing Legal, Regulatory, Privacy)</td>    
+                    </tr>
+                    <tr class="nav6">
+                       <td width="50"><span class="bully"></span> <strong>ML</strong></td> 
+                       <td>Market Leadership</td>    
+                    </tr>
+                    <tr class="nav7">
+                       <td width="50"><span class="bully"></span> <strong>SME</strong></td> 
+                       <td>Diligence Subject Matter Leads</td>    
+                    </tr>
+                </table>
+                <br />   
+                <table class="legend">
+                    <tr>
+                        <td colspan="2">Legend</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" style="text-align:center;"><img src="assets/images/star_icon_sm.png" style="width:50%; height:auto;" /></td>
+                        <td>Hover to View Additional Information</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" style="text-align:center;"><img src="assets/images/checklist_icon_sm.png" style="width:50%; height:auto;" /></td>
+                        <td><a href="http://www.fortestage.com/Magellan/tools/M&A Checklist.xlsx" onclick="ga('send', 'event', 'Downloads', 'Click', 'Deal Process Checklist', '0');">Download the Process Checklist</a></td>
+                    </tr>
+        
+                    <tr>
+                        <td width="20%" style="text-align:center;"><img src="assets/images/print-ico.png" style="width:50%; height:auto;" /></td>
+                        <td><a href="tools/Printable-PDF.pdf" target="_blank" />Download the Print Version</a></td>
+                    </tr>
+                </table>
+            </div>
+        
+               
+		  
+          	<!--<div class="trans-nav">
+                <ul>
+                    <li class="trans-nav1 checked"><a href="#pre-loi"><span>Pre-LOI</span></a></li>
+                    <li class="trans-nav2"><a href="#post-loi"><span>Post-LOI&mdash;Vote/Sign</span></a></li>
+                    <li class="trans-nav3"><a href="#vote-sign"><span>Vote/Sign&mdash;Fund/Close</span></a></li>
+                    <li class="trans-nav4"><a href="#post-close"><span>Post-Close</span></a></li>
+                </ul>    
+			</div>-->
+           <div class="overwrap">
+            <h1 class="intro-text">Transaction Process</h1>
+        
+            <p class="intro-text"><strong>General Guidelines:</strong></p>
+        
+            <ul class="intro-text">
+                <li>Do not re-purpose materials you have used in past deals&mdash;always take templates from this playbook, as they will continuously updated for compliance, legal and best practices.</li>
+                <li>When in doubt, contact Conduit/JLD for guidance and transaction steps.</li>
+                <li>Do not share confidential information, send legal documents or propose deal terms/structure without JLD input.</li>
+            </ul>
+            </div>
+        
+            <!-- Pre-LOI section -->
+            <div class="pre-loi overwrap">
+                <a name="pre-loi" id="pre-loi"></a>
+                <h2><img src="assets/images/compass_ico.png" width="50" /> Pre-LOI</h2>
+                
+                <p class="intro-text">At this stage, we are in early discussions with potential acquisition targets. Market Presidents and Recon (our sourcing and relationship team) vets and brings forth possible opportunities. The execution team gets engaged, and preliminary valuation and diligence are conducted. The Seller may be interested in learning more about the DaVita Medical Group, visiting our campuses and talking to our teammates. If so, this will be handled on a case-by-case basis by Magellan and Supporting teams.</p>
+                
+                <p class="intro-text"><strong>It is important to maintain confidentiality and discretion during this stage and involve only a limited team.</strong> Care must be taken when communicating transaction details, including timing, process and operating/transaction assumptions. JLD and Conduit should be consulted prior to offering details on any of those topics.</p>
+                
+                <p class="intro-text">The pre-LOI process can take quite a bit of time. The Recon team will need to keep the rest of Magellan updated as the LOI signing gets closer. A number of approvals must be obtained to proceed further and start to engage the full Transaction/Diligence team.</p>
+            
+                <!--- Sticky Nav Table Labels --> 
+                <div class="vert-columns titles staticnav">
+                    <div class="sixth">Transaction</div>
+                    <div class="sixth">Approvals</div>
+                    <div class="sixth">Legal</div>
+                    <div class="sixth">Diligence</div>
+                    <div class="sixth">Communication/<br />Information/Education</div>
+                    <div class="sixth">Integration</div>
+                </div>
+                
+                <!-- PRE-LOI section 1 -->
+                <table class="vert-columns table">
+                    <tr>
+                        <td><p class="r">Determine strategic fit and alignment with top DMG priorities—R</p></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><p class="r">Pitch using an <strong><a href="http://www.fortestage.com/Magellan/tools/1.1 DMG basic presentation deck June 2017.pptx" onclick="ga('send', 'event', 'Downloads', 'Click', 'DMG Pitch Presentation', '0');">approved deck</a></strong> and <strong><a href="http://www.fortestage.com/Magellan/tools/1.2 Key Questions (CC Comments 3-29-2016).docx" onclick="ga('send', 'event', 'Downloads', 'Click', 'Key Questions Asked By Physicians', '0');">physician FAQs</a></strong>—R</p></td>
+                        <td><p class="r td">Meet with Market Leadership to gain buy-in for proceeding further with the Seller—R, TD</p></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><p class="td">Send the Seller an <strong><a href="#">initial request</a></strong> for documents/information to build valuation—TD</p></td>
+                        <td></td>
+						<td><p class="r td">Send <strong><a href="tools/Legal/1.4 DMG-Form Mutual Confidentiality Agreement-FINAL[1 4 17].docx">NDA</a></strong> and <a href="http://www.fortestage.com/Magellan/tools/baa_guidance.html"><strong>BAA</a></strong> to the Seller, obtain signatures, save to shared drive and send an executed copy to JLD—R or TD</p></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><p class="r td"><span class="field-tip"><img src="assets/images/star_icon_sm.png" style="max-width: 30px; width:30px; height:auto;" />
+                            <span class="tip-content"><strong>Regulatory Guardrails</strong><br />Contact Chris Lee or Compliance for a copy of the Handbook.</span></span>
+							<br />Consult the <strong><a href="http://myhcp.hcp.com/sites/corporatecompliance/Handbooks/Forms/AllItems.aspx?RootFolder=%2Fsites%2Fcorporatecompliance%2FHandbooks%2FPhysician%20Transactions&FolderCTID=0x012000DB7F8EF0EBE26546999D5A59744C8353&View=%7b9D6ACF38-DABD-4C21-95FC-C9E7F04D2AEA%7d&InitialTabId=Ribbon%2EDocument&VisibilityContext=WSSTabPersistence">Transaction Handbook</a></strong> on transaction structure, necessary approvals, and whether external valuation is needed—R, TD</p></td>
+                        <td></td>
+                        <td><p class="r td l"><span class="field-tip"><img src="assets/images/star_icon_sm.png" style="max-width: 30px; width:30px; height:auto;" />
+                            <span class="tip-content"><strong>Discussion of Preliminary Transaction Terms</strong><br />&bull; Engage JLD early for this discussion<br />&bull; JLD will provide guidance on necessary approvals (e.g., shareholder vote)<br />&bull; Discuss deal timeline (Conduit)</span></span>
+                            <br />Discuss and vet preliminary transaction terms, structure and approvals with JLD prior to discussing them with the Seller—TD, R, JLD</p></td>
+                        <td></td>
+                        <!-- <td><p class="r ml"><span class="field-tip"><img src="assets/images/star_icon_sm.png" style="max-width: 30px; width:30px; height:auto;" />
+                            <span class="tip-content left"><strong>Guidelines</strong><br />
+                            All timing has to be approved by Conduit, JLD, and Magellan leadership. <a href="http://www.fortestage.com/Magellan/tools/1.25 Transaction Timing Guidelines.pptx" onclick="ga('send', 'event', 'Downloads', 'Click', 'Transaction Timing Guidelines', '0');">	Read guidelines</a></span></span>
+                            <br />Use <strong><a href="http://www.fortestage.com/Magellan/tools/1.25 Transaction Timing Guidelines.pptx" onclick="ga('send', 'event', 'Downloads', 'Click', 'Transaction Timing Guidelines', '0');">these guidelines</a></strong> when discussing possible transaction timing—R, TD</p></td> -->
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><p class="r td">Meet with Market Leadership to go over financial model and assumptions—R, TD</p></td>
+                        <td><p class="td" style="font-style:italic;">Note: It is critical that we involve regulatory, compliance, tax, accounting and legal in all deal reviews&mdash;which is accomplished by sharing purchase agreement drafts in the standard deals and active early outreach by the Transaction Director in any non-standard/CPOM/JV deals—TD</p></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><p class="r"><span class="field-tip"><img src="assets/images/star_icon_sm.png" style="max-width: 30px; width:30px; height:auto;" />
+                            <span class="tip-content"><strong>Update BD Pipeline</strong><br />Once the transaction becomes likely and there is enough interest internally and from the seller, update the status in the BD Pipeline so that Diligence SMEs can have it on their radar.</span></span>
+                            <br />Update the <strong><a href="http://myhcp-dev.hcp.com/sites/cd/Lists/National Pipeline/PipelineAll.aspx" target="_blank">BD Pipeline</a></strong> status to “30 days to Bid/LOI”—R</p></td>
+                        <td><p class="r td">Market CFO and TD to vet financial model and assumptions with the National FP&amp;A (prior to sharing with Pricing Committee)—TD, R</p></td>
+                        <td><p class="td"><span class="field-tip"><img src="assets/images/star_icon_sm.png" style="max-width: 30px; width:30px; height:auto;" />
+                            <span class="tip-content"><strong>Term Sheet</strong><br />Please note that a Term Sheet is <strong>NOT</strong> an LOI/IOI and should not be signed and <strong>MUST</strong> include legal non-binding language per the template.<br /><br />As best practice, obtain JLD input prior to sharing any terms or legal documents with seller.</span></span><br />If you need a Term Sheet to propose initial terms to the Seller, use this template (link 1.15). Vet the terms with JLD prior to any sharing with the Seller—TD</p></td>
+                        <td></td>
+                        <td></td>
+                        <td><p class="c td">Provide the market/transaction sponsors with an overview of the integration process, best practices, and the <strong><a href="http://www.fortestage.com/Magellan/tools/1.7 Seller Education - Integration Process Overview DRAFT.pptx" onclick="ga('send', 'event', 'Downloads', 'Click', 'Seller Education—Integration', '0');">seller education templates for integration</a></strong>—C or TD</p></td>
+                    </tr>
+                </table>
+                <!-- /PRE-LOI section 1 -->
+                
+                
+                
+                
+                
+                <!-- PRE-LOI section 2 -->
+                <table class="vert-columns table">
+                    <tr>
+                        <td></td>
+                        <td><p><strong>Pricing Approval Matrix</strong></p>
+                            <ul style="width:auto;list-style-type:square;margin-left: 20px;">
+                                <li>Market leader</li>
+                                <li>Market CFO</li>
+                                <li>Mike McArthur, DMG BD</li>
+                                <li>Chan Basho, DMG BD<br />(< $1M)</li>
+                                <li>Vijay Kotte, DMG finance (between $1&ndash;5M)</li>
+                                <li>Pricing Committee + KT (between $5&ndash;25M)</li>
+                                <li>Photon/Laser (> $25M)</li>
+                            </ul>
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><p class="td"><span class="field-tip"><img src="assets/images/star_icon_sm.png" style="max-width: 30px; width:30px; height:auto;" />
+                            <span class="tip-content">Make sure to vet all compensation ranges and methodology with compliance.</span></span><br />If compensation is included in the LOI, obtain approved range using the compliance <strong><a href="http://compass.hcp.com/" target="_blank">Compass Tool</a></strong>—TD</p></td>
+                        <td><p class="r td"><span class="field-tip"><img src="assets/images/star_icon_sm.png" style="max-width: 30px; width:30px; height:auto;" />
+							<span class="tip-content">Pricing committee approval needed for transactions above $5 million.<br /><br />All presentations must be vetted by legal ahead of time.</span></span><br />Prepare an <strong><a href="http://www.fortestage.com/Magellan/tools/1.27 Transaction Approval Presentation Template 11.16.16.pptx" onclick="ga('send', 'event', 'Downloads', 'Click', 'Transaction Approval Presentation Template', '0');">overview deck</a></strong> for Pricing Committee; present, get approval—TD, R</p></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><p class="td"><span class="field-tip"><img src="assets/images/star_icon_sm.png" style="max-width: 30px; width:30px; height:auto;" />
+                            <span class="tip-content left"><strong>Seller Education Tips</strong><br />&bull; Education should be very high level at this stage.<br />&bull; If the seller requests further information on mandatory vs. optional and specific integration buckets, please work with Conduit to ensure appropriate messaging is included.<br />&bull; All specific integration-bucket discussion should be held off until later in the process, after the diligence teams have had a chance to assess what will be needed.</span></span><br />If needed, educate the Seller on the <strong><a href="http://www.fortestage.com/Magellan/tools/1.7 Seller Education - Integration Process Overview DRAFT.pptx" onclick="ga('send', 'event', 'Downloads', 'Click', 'Seller Education—Integration', '0');">integration process</a></strong>—TD</p></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><p class="r td"><span class="field-tip"><img src="assets/images/star_icon_sm.png" style="max-width: 30px; width:30px; height:auto;" />
+                            <span class="tip-content"><strong>Overview Deck</strong><br />Should include summary term sheet, valuation and assumptions, business overview, and strategic rationale.</span></span>
+							<br />Prepare an <strong><a href="http://www.fortestage.com/Magellan/tools/1.27 Transaction Approval Presentation Template 11.16.16.pptx" onclick="ga('send', 'event', 'Downloads', 'Click', 'Transaction Approval Presentation Template', '0');">overview deck</a></strong> for LASER; present, get approval—TD, R</p></td>
+                        <td></td>
+                        <td></td>
+                        <td><p class="r td"><span class="field-tip"><img src="assets/images/star_icon_sm.png" style="max-width: 30px; width:30px; height:auto;" />
+                            <span class="tip-content left"><strong>Seller Education Tips</strong><br />&bull; Education should be very high level at this stage.<br />&bull; If the seller requests further information on mandatory vs. optional and specific integration buckets, please work with Conduit to ensure appropriate messaging is included.<br />&bull; All specific integration-bucket discussion should be held off until later in the process, after the diligence teams have had a chance to assess what will be needed.</span></span><br />If needed, provide transaction overview (link 1.6) to Seller—R, TD</p></td>
+                        <td><p class="c td">If needed, provide <strong><a href="http://www.fortestage.com/Magellan/tools/1.26 Integration Guidelines.pdf" onclick="ga('send', 'event', 'Downloads', 'Click', 'Integration Guidlines', '0');">do's and dont's</a></strong> on Integration to DMG markets.—C, TD</p></td>
+                    </tr>
+                    <tr>
+                        <td><p class="c td"><strong><a href="http://www.fortestage.com/Magellan/tools/M&A Checklist.xlsx" onclick="ga('send', 'event', 'Downloads', 'Click', 'Deal Process Checklist', '0');">Download process checklist</a></strong>, save it to a shared drive, edit as needed, and keep updated—C, TD</p></td>
+                        <td>&nbsp;</td>
+                        <td><p class="r td">Schedule a call with JLD to discuss structure and next steps for LOI drafting—TD, R</p></td>
+                        <td></td>
+                        <td><p class="r td">Discuss with Market Leadership if seller should be exposed to DVA programming (i.e., Academy), get a WHQ tour, have interviews with physicians, etc.—TD, R</p></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><p class="td">Start <strong><a href="http://www.fortestage.com/Magellan/tools/1.11 Over the Wall List Template.xlsx" onclick="ga('send', 'event', 'Downloads', 'Click', 'Over the Wall List Template', '0');">Over the Wall list</a></strong>—TD</p></td>
+                        <td>&nbsp;</td>
+                        <td><p class="l">JLD to draft the LOI and then vet it with tax, regulatory and other SMEs (as needed)—JLD</p></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><p class="r">Update the <strong><a href="http://myhcp-dev.hcp.com/sites/cd/Lists/National Pipeline/PipelineAll.aspx" target="_blank">BD Pipeline</a></strong> status to “30 days to Bid/LOI”—R</p></td>
+                        <td>&nbsp;</td>
+                        <td><p class="l">JLD to send the LOI to the Transaction team for review and distribution—JLD</p></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><p class="r td l">Send the draft LOI to the Seller; receive comments and vet them with JLD—TD, R, JLD</p></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+                <!-- /PRE-LOI section 2 -->
+                
+                
+                
+                
+                
+                <!-- PRE-LOI section 3 -->
+                <table class="vert-columns table">
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><p class="r td l"><span class="field-tip"><img src="assets/images/star_icon_sm.png" style="max-width: 30px; width:30px; height:auto;" />
+                            <span class="tip-content">This is important to do, as it will impact our internal approval timing.</span></span>
+                            <br />Confirm with the Seller and their counsel the transaction approval process, advance notice, and documentation needed (e.g., board or shareholder approvals)—TD, R, JLD</p></td>
+                        <td><p class="td">Engage <strong><a href="http://www.fortestage.com/Magellan/magellanteam.html#conduit">Conduit</a></strong> to start preparing for diligence—TD</p></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><p class="c">Tailor a full <strong><a href="http://www.fortestage.com/Magellan/tools/1.5 Pre LOI Diligence List 11.17.16.xlsx" onclick="ga('send', 'event', 'Downloads', 'Click', 'Legal Dos and Donts', '0');">due diligence request list</a></strong> to transaction—C</p></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>&nbsp;</td>
+                        <td></td>
+                        <td><p class="c">Determine Diligence <strong><a href="tools/1.10 Responsible Diligence - Integration Teams Dashboard.xlsx" onclick="ga('send', 'event', 'Downloads', 'Click', 'Who to Engage for Transactions', '0');">accountable and responsible parties</a></strong>, as well as any third parties needed, and start engagement process—C</p></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>&nbsp;</td>
+                        <td></td>
+                        <td><p class="c"><span class="field-tip"><img src="assets/images/star_icon_sm.png" style="max-width: 30px; width:30px; height:auto;" />
+                            <span class="tip-content left">Heads up! If an FMV is needed, this may impact transaction timing.</span></span>
+                            <br />Determine if Regulatory needs an upfront FMV; if so, draft an SOW and engage—C</p></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+						<td><p class="td">Develop a <strong><a href="http://www.fortestage.com/Magellan/tools/1.29 Transaction Working Group List 11.16.16.docx" onclick="ga('send', 'event', 'Downloads', 'Click', 'Working Group List Template', '0');">working group list</a></strong> for the Seller and DMG—TD</p></td>
+                        <td><p class="r td l">Send final LOI and overview deck to BESS, informing them of the timing of the transaction—TD, R, JLD</p></td>
+                        <td><p class="r td l">Sign LOI (link 1.16) (DVA and Seller)/send to JLD legal/save to the Magellan shared drive—TD, R, JLD</p></td>
+                        <td><p class="c td">Develop a detailed transaction timeline with <strong><a href="http://www.fortestage.com/Magellan/tools/1.12 Deal Timeline Template.xlsx" onclick="ga('send', 'event', 'Downloads', 'Click', 'Deal Timeline Template', '0');">diligence checkpoints</a></strong>—TD, C</p></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    
+                </table>
+                <!-- /PRE-LOI section 3 -->
+                
+                
+            </div>    
+            <!-- /Pre-LOI section -->
+            
+            <br />
+            <br />
+            <br />
+            <br />
+            
+            <!-- POST-LOI section -->
+            <div class="post-loi overwrap">
+                <a name="post-loi" id="post-loi"></a>
+                <h2><img src="assets/images/compass_ico.png"  width="50" /> Post-LOI—Vote/Sign</h2>
+                
+                <p class="intro-text">This stage can take anywhere from 90 to 120 days, depending heavily on the Diligence team’s capacity, data availability and ease of negotiation.</p>
+                
+                <p class="intro-text">During this stage, a number of simultaneous activities take place, and the transaction has a clear quarterback assigned. The broader Diligence team is engaged and guided by Conduit, JLD works closely with the Transaction team and the Seller to put together the necessary documents, and the integration/operating philosophy and plans are developed. The Seller may feel overwhelmed with data and meeting requests; being sensitive to this is important for a successful diligence process.</p>
+                
+                <p class="intro-text">Good communication and a good cadence of information-sharing among the different parties involved are crucial to the success of this stage. Flexibility also needs to be messaged, as this stage may uncover unknown difficulties or additional work required.</p>
+                
+                <p class="intro-text">As with other stages, confidentiality is of the utmost importance. Bring in only those who must be involved to conduct analysis and support the transaction. More teammates will be brought on in the next stage of the transaction process.</p>
+                
+                 <!--- POST-LOI section 1 -->
+                <div class="vert-columns titles">
+                    <div class="sixth">Transaction</div>
+                    <div class="sixth">Approvals</div>
+                    <div class="sixth">Legal</div>
+                    <div class="sixth">Diligence</div>
+                    <div class="sixth">Communication/<br />Information/Education</div>
+                    <div class="sixth">Integration</div>
+                </div>        
+                
+                
+                <!-- POST-LOI section 1 -->
+                <table class="vert-columns table">
+                    <tr>
+                        <td><p class="ml td">Confirm what is needed to finalize the transaction structure (this influences diligence and must be done ASAP)—TD, ML</p></td>
+                        <td></td>
+                        <td><p class="td">Schedule a call between the Seller and JLD to discuss open issues and timeline—TD</p></td>
+                        <td><p class="c">Schedule and lead a kickoff meeting with the Seller, in person if possible, using a <strong><a href="http://www.fortestage.com/Magellan/tools/2.12 Diligence Kick Off Template - External.pptx" onclick="ga('send', 'event', 'Downloads', 'Click', 'External Diligence Kick-Off Presentation Template', '0');">standard template</a></strong>—C</p></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><p class="td">Determine which areas of valuation/model need to be diligenced/vetted, and then provide this guidance to the Diligence team—TD</p></td>
+                        <td></td>
+                        <td></td>
+                        <td><p class="c">Discuss the full diligence list with the Seller, mark what is NA and determine the timing of document availability—C</p></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><p class="td"><span class="field-tip"><img src="assets/images/star_icon_sm.png" style="max-width: 30px; width:30px; height:auto;" />
+                            <span class="tip-content"><strong>Transaction Model</strong><br />When you share the model internally, do not include the valuation tab (sharing of valuation ranges and the like in a presentation is fine).</span></span><br />Send the model to Finance, Regulatory and Tax (if needed)—TD</p></td>
+                        <td><p class="ml l td">While not recommended until a purchase agreement is signed, determine if the Seller needs to disclose the transaction to shareholders or staff. If so, discuss steps to maintain confidentiality with JLD prior to the Seller making any disclosure—TD, JLD, ML</p></td>
+                        <td><p class="td">Engage JLD to start drafting the Purchase Agreement and the required disclosure schedules; determine which other documents will be required for structure—TD</p></td>
+                        <td><p class="c">Send the Seller long lead requests (<strong><a href="http://www.fortestage.com/Magellan/tools/2.7 Coding Data Request Template.xlsx">coding template</a></strong>) and the <strong><a href="http://www.fortestage.com/Magellan/tools/2.6 Physician FMV Data Request Template.xlsx" onclick="ga('send', 'event', 'Downloads', 'Click', 'Physician FMV Data Request Template', '0');">FMV template</a></strong>; ask for contracts (payor, provider, leases, etc.)—C</p></td>
+                        <td></td>
+                        <td><p class="td ml"><span class="field-tip"><img src="assets/images/star_icon_sm.png" style="max-width: 30px; width:30px; height:auto;" />
+                            <span class="tip-content left"><strong>Operations</strong><br />It is important for the Market Leads to start to lay out how they want to operate this entity going forward, including:<br /><br />
+&bull; How much consolidation do we want?<br />
+&bull; Who is the management team?<br />
+&bull; How to deal with any overlapping functions?<br />
+&bull; What is needed to complete this framework from a diligence perspective?<br />
+&bull; NOTE: personnel and other sensitive decisions should be made at market management level not at diligence lead level, and not discussed with Seller until an appropriate time in the process.<br /><br />This is also a good time to start understanding what areas of the target would need help/operational optimization to achieve results (i.e., prove our investment thesis), and planning how we should approach those improvement areas (timing, resourcing, coaching, etc.).<br /></span></span><br />Develop a straw man post-close operating model for the acquisition—TD, ML</p></td>
+                    </tr>
+                    <tr>
+                        <td><p class="td">Start a weekly call with the Transaction team and internal/external Legal Counsel—TD</p></td>
+                        <td>&nbsp;</td>
+                        <td></td>
+                        <!-- <td><p class="c"><span class="field-tip"><img src="assets/images/star_icon_sm.png" style="max-width: 30px; width:30px; height:auto;" />
+                            <span class="tip-content left">Having the Seller present their business overview to the entire Diligence team is the most effective way for us to get to know them, and reduces duplicative presentations/questions from our team.</span></span><br />Share <strong><a href="http://www.fortestage.com/Magellan/tools/2.3 Seller Business Overview Presentation Template (For Seller to Use) 11.02.16.pptx" onclick="ga('send', 'event', 'Downloads', 'Click', 'Seller Business Overview Presentation Template - For Seller to Use', '0');">Management Presentation Guidelines</a></strong> with the Seller—C</p></td> -->
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><p class="td">Start a weekly call with the Transaction team, Conduit and the Seller—TD</p></td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td><p class="c td"><span class="field-tip"><img src="assets/images/star_icon_sm.png" style="max-width: 30px; width:30px; height:auto;" />
+                            <span class="tip-content left"><strong>Restrict Folder Access</strong><br />Typically HR salary data, contracts and other sensitive data will need to be in restricted access folders. Check with JLD to ensure you are restricting the right folders.</span></span><br />Set up data room structure, tracker, make some folders restricted access—C, TD</p></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><p class="ps l td">Engage JLD to draft employment agreements and non-competes (for clinicians)—TD, JLD</p></td>
+                        <td><p class="c td">Grant the Seller access to the data room—C, TD</p></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><p class="c"><span class="field-tip"><img src="assets/images/star_icon_sm.png" style="max-width: 30px; width:30px; height:auto;" />
+                            <span class="tip-content left"><strong>Kickoff</strong><br />Best practice is to conduct the internal kickoff after ample data has been loaded to the data room for the team to start reviewing.<br /><br />
+During kickoff or after, determine 3rd party support required, including:<br /><br />
+
+&bull; Determine if Real Estate needs Phase 1s (owned property only) or surveys/engage 3rd parties for these.<br />
+&bull; Determine if Finance needs 3rd party for QoE, RCM, FMV, Purchase Price Allocation/draft SOW/engage.<br />
+&bull; Determine if contracts need to be in clean room (legal/contracting)/draft SOW/engage<br /><br />
+                                
+After this call, send out diligence and integration summary findings template (link 2.13). This template will be function specific for integration areas and will need to be addressed during the kickoff call.</span></span><br />Schedule and lead an internal kickoff meeting using a <strong><a href="http://www.fortestage.com/Magellan/tools/2.11 Diligence Kick Off Template - Internal.pptx" onclick="ga('send', 'event', 'Downloads', 'Click', 'Internal Diligence Kick-Off Presentation Template', '0');">standard template</a></strong> (suggest doing this after ample data are available)—C</p></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><p class="c"><span class="field-tip"><img src="assets/images/star_icon_sm.png" style="max-width: 30px; width:30px; height:auto;" />
+                            <span class="tip-content left"><strong>Management Presentation Meeting</strong><br />Try to get as many diligence subject matter leads in person as practicable. If you’re able to secure key functions, schedule breakout sessions with the seller following the presentation. This will work well, especially if there is time given for the internal diligence team to review data/materials in the data room and be able to ask specific questions.</span></span><br />Schedule a Management Presentation meeting with the internal Diligence team and the Seller—C</p></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><p class="c"><span class="field-tip"><img src="assets/images/star_icon_sm.png" style="max-width: 30px; width:30px; height:auto;" />
+                            <span class="tip-content left"><strong>Data Uploads</strong><br />To keep the Diligence team updated, it is recommended that Conduit sends weekly emails to Diligence team leads as data gets uploaded (including a description/list of files that have been uploaded).</span></span><br />Open the data room internally—C</p></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><p class="c">Schedule all internal diligence check-ins—C</p></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><p class="c">Contact the coding third party (FTI) and get an SOW started (will need coding data from the Seller to finalize the SOW)—C</p></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+                <!-- /POST-LOI section 1 -->
+                
+                
+                
+                
+                <!-- POST-LOI section 2 -->
+                <table class="vert-columns table">
+                    <tr>
+                        <td></td>
+                        <td><p class="td l"><span class="field-tip"><img src="assets/images/star_icon_sm.png" style="max-width: 30px; width:30px; height:auto;" />
+                            <span class="tip-content"><strong>Remember</strong><br />Employment agreements are not to be shared outside of JLD Legal and People Services!<br /><br />Consult JLD Legal on which drafts should be shared when with who from BESS.</span></span><br />Distribute the draft Purchase Agreement, disclose schedules and employment agreements to BESS (or smaller group as advised by JLD). Do not send to the Seller prior to internal review—TD, JLD</p></td>
+                        <td></td>
+                        <td><p class="c"><span class="field-tip"><img src="assets/images/star_icon_sm.png" style="max-width: 30px; width:30px; height:auto;" />
+                            <span class="tip-content left"><strong>Site Visits</strong><br />Site visits will most likely be needed by:<br /><br />
+&bull; Real estate (external and internal review)<br />
+&bull; Revenue cycle management<br />
+&bull; IT</span></span><br />Schedule site visits for the functional diligence leads—C</p></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><p class="td l">Submit the draft Purchase Agreement, disclosure schedules and employment agreement to the Seller—TD, JLD</p></td>
+                        <td><p class="c"><span class="field-tip"><img src="assets/images/star_icon_sm.png" style="max-width: 30px; width:30px; height:auto;" />
+                            <span class="tip-content left"><strong>Diligence Check-In</strong><br />During this meeting, it is important to understand findings that will have model/cost implications, pre-Day 1 integration needs, closing conditions needed, and to confirm what is outstanding to complete diligence.</span></span><br />Conduct first Diligence team check-in—C</p></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>&nbsp;</td>
+                        <td><p class="td l"><span class="field-tip"><img src="assets/images/star_icon_sm.png" style="max-width: 30px; width:30px; height:auto;" />
+                            <span class="tip-content"><strong>Remember</strong><br />Employment agreements are not to be shared outside of JLD Legal and People Services!<br /><br />Consult JLD Legal on which drafts should be shared when with who from BESS.</span></span><br />Receive Seller comments on the Purchase Agreement, Employment Agreement and other Agreements and review internally—TD, JLD</p></td>
+                        <td><p class="c">Schedule follow-up calls for functional diligence leads—C</p></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>&nbsp;</td>
+                        <td></td>
+                        <td><p class="c">Consolidate follow-up diligence requests and send to the Seller—C</p></td>
+                        <td></td>
+                        <td><p class="td c"><span class="field-tip"><img src="assets/images/star_icon_sm.png" style="max-width: 30px; width:30px; height:auto;" />
+                            <span class="tip-content left">Steering Committee to consist of DMG market leadership, key functional areas, and seller's leadership (as applicable).<br /><br />Discuss with market president prior to forming committee.</span></span><br />Form Steering Committee for pre- and post-close integration. Assign Integration Coordination Lead (needs to be in local market). Schedule weekly Steering Committee meetings—TD, C, ML</p></td>
+                    </tr>
+                    <tr>
+                        <td><p class="td"><span class="field-tip"><img src="assets/images/star_icon_sm.png" style="max-width: 30px; width:30px; height:auto;" />
+                            <span class="tip-content"><strong>Update Model</strong><br />If, after diligence findings and given integration assumptions, the valuation model fluctuation is significant—bring to Executive Steering Committee/DMG Executives/National FP&amp;A for discussion of next steps (further negotiation/purchase price reduction, escrow, closing conditions, etc.).</span></span><br />Update the model for diligence findings (integration costs, synergy estimates, model assumption changes)—TD</p></td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td><p class="c">Conduct final diligence team check-in with market leadership and Steering Committee (discuss key issues, findings and proposed remediation)—C</p></td>
+                        <td></td>
+                        <td><p class="td ml c">Have Steering Committee determine go-forward operating framework (system/process consolidation, shared services/people integration, office/site consolidation, management/leadership)—TD, ML, C</p></td>
+                    </tr>
+                    <tr>
+                        <td><p class="td">It is <strong><span style="text-decoration:underline;">required</span></strong> that all Transaction Directors review the updated financial model post-due diligence, highlighting any change in returns or forecast, with BESS signers responsible for financial model review (Mike McArthur, Chan Basho, Jason Schulz, and Joel Ackerman as well as Joe Mello). The deal model sets the Year 1 operating plan and determines the budget for facility and IT integration costs. Amounts spent above this level will require approval from the DMG Capital Committee—TD</p></td>
+                        <td></td>
+                        <td></td>
+                        <td><p class="c td sme l"><span class="field-tip"><img src="assets/images/star_icon_sm.png" style="max-width: 30px; width:30px; height:auto;" />
+                            <span class="tip-content left"><strong>Pre-Close Requirement Notes</strong><br />It is important to get from JLD, Contracting, Real Estate, and Vendor diligence leads a list of contracts that contain notice/assignment requirements pre-close—this will be added to pre-closing conditions in the Purchase Agreement. During the closing process, if there is delay or hardship in receiving consents, only the functional diligence leads along with the JLD and Market Leads can make the decision to close without receiving all consents needed.</span></span><br />Finalize the list of contracts requiring notice or assignment pre-closing—C, TD, SME, JLD</p></td>
+                        <td></td>
+                        <td><p class="c ic">After final diligence check-in define/confirm integration team. Ask team to customize <strong><a href="http://www.fortestage.com/Magellan/tools/4.3 Integration Checklist EXAMPLE.xlsx" onclick="ga('send', 'event', 'Downloads', 'Click', 'Integration Checklist Example', '0');">integration checklist</a></strong> using proposed integration activities from diligence check-ins. Share expected <strong><a href="http://www.fortestage.com/Magellan/tools/4.1 Integration ReportingTemplate 11.16.16.pptx" onclick="ga('send', 'event', 'Downloads', 'Click', 'Integration Reporting Template', '0');">integration reporting templates</a></strong> to be used after kickoff—C, IC</p></td>
+                    </tr>
+                    
+                </table>
+                <!-- /POST-LOI section 2 -->
+                        
+                
+                
+                
+                <!-- POST-LOI section 3 -->                 
+                <table class="vert-columns table">
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><p class="td l">Finalize key transaction documents (Purchase Agreement, Employment Agreements, Disclosure Schedules)—TD, JLD</p></td>
+                        <td></td>
+                        <td></td>
+                        <td><p class="c"><span class="field-tip"><img src="assets/images/star_icon_sm.png" style="max-width: 30px; width:30px; height:auto;" />
+                            <span class="tip-content left"><strong>In Scope for SOX</strong><br />Contact Accounting (Leif Pedersen) to determine this.<br /><br />If in scope, engage IT/Finance SOX to understand what, if anything, will be needed post-close—<em>this must be done pre-close.</em></span></span><br />Determine if the acquisition is deemed “in scope” for SOX—C</p></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><p class="td">Send the final transaction documents to BESS—TD</p></td>
+                        <td></td>
+                        <td></td>
+                        <td><p class="td"><span class="field-tip"><img src="assets/images/star_icon_sm.png" style="max-width: 30px; width:30px; height:auto;" />
+                            <span class="tip-content left"><strong>Communications Review</strong><br />Review all press releases and FAQs with Legal, Joe Mello, and Ilene Moore.<br /><br />FAQs will need People Services review.</span></span><br />Work with Communications to prepare internal announcement, press release, and FAQs—TD</p></td>
+                        <td><p class="c ic"><span class="field-tip"><img src="assets/images/star_icon_sm.png" style="max-width: 30px; width:30px; height:auto;" />
+                            <span class="tip-content left">Present to DMG Steering Committee first to get directional approval, prior to sharing with Seller.</span></span><br />Present completed integration checklist to Steering Committee and get approval—C, IC</p></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><p class="td"><span class="field-tip"><img src="assets/images/star_icon_sm.png" style="max-width: 30px; width:30px; height:auto;" />
+                            <span class="tip-content"><strong>BESS Signatures</strong><br />Be aware that additional BESS signatures will be needed if material changes to the Purchase Agreement or other documents are created between Sign and Close.</span></span><br />Receive approval from BESS on transaction documents—TD</p></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><p class="td"><strong><a href="http://www.fortestage.com/Magellan/tools/1.32 BESS Outreach-Signing and Closing Process.docx" onclick="ga('send', 'event', 'Downloads', 'Click', 'BESS Outreach Signing and Closing Process Document', '0');">Refer to BESS Outreach/Signing and Closing Process document</a></strong>—TD</p></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>                    
+                    <tr>
+                        <td></td>
+                        <td><p class="td">Receive shareholder vote/approval; have all shareholders sign employment agreements—TD</p></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><p class="td l">Sign transaction documents, including the Purchase Agreement (link 1.16) (both DVA and the Seller). Send them to JLD and BESS—TD, JLD</p></td>
+                        <td></td>
+                        <td><p class="td"><span class="field-tip"><img src="assets/images/star_icon_sm.png" style="max-width: 30px; width:30px; height:auto;" />
+                            <span class="tip-content left"><strong>Announcement Timing</strong><br />In deciding when to announce, be aware that Friday is not an optimal day. Work with the Seller to schedule their internal announcement of the transaction for earlier in the week.<br /><br />Any announcements made prior to closing require approval from the JLD and [Joe Mello].</span></span><br />Internal announcement, press release—TD</p></td>
+                        <td><p><span class="field-tip"><img src="assets/images/star_icon_sm.png" style="max-width: 30px; width:30px; height:auto;" />
+                            <span class="tip-content left">You may want to have Seller representation in Steering Committee after integration kickoff.<br /><br />
+                                <strong>No integration work to begin until post-signing of the purchase agreement.</strong></span></span><br />Share pre-close integration plan with Seller. Have Seller begin to identify functional leads for each integration workstream.</p></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><p class="ic">Schedule a pre-close integration kickoff for right after vote/sign—IC</p></td>
+                    </tr>
+                </table>
+                <!-- POST-LOI section 3 -->        
+   
+            </div>    
+
+
+
+
+            
+            <!-- VOTE/SIGN-FUND/CLOSE section -->
+            <div class="vote-sign overwrap">
+                <a name="vote-sign" id="vote-sign"></a>
+                <h2><img src="assets/images/compass_ico.png"  width="50" /> Vote/Sign—Fund/Close</h2>
+                
+                <p class="intro-text">This stage can take anywhere from 30 to 60 days or longer. Timing is influenced by external parties (consents from payors/landlords, certification, etc.) as well as by the type of transaction and the heavy lifting required prior to closing/Day 1.</p>
+                
+                <p class="intro-text">During this stage, most of the organization becomes informed of the pending transaction and more teammates come into the fold to start planning/executing on integration and pre-close activities. There will be heavy involvement by Treasury, Finance and Accounting teams to get to Funding/Closing. Regular check-ins on progress are key to determining the timing of closing (organizationally, we prefer the first of the month). Planning for a Day 1 celebration for the soon-to-be teammates is also in full swing.</p>
+                
+                <p class="intro-text">While post-close integration planning can begin during this stage, the priority is on all the pre-close activities that must take place pre-close for a successful Day 1!</p>
+                
+                 <!--- POST-LOI section 1 -->
+                <div class="vert-columns titles">
+                    <div class="sixth">Transaction</div>
+                    <div class="sixth">Approvals</div>
+                    <div class="sixth">Legal</div>
+                    <div class="sixth">Diligence</div>
+                    <div class="sixth">Communication/<br />Information/Education</div>
+                    <div class="sixth">Integration</div>
+                </div>
+                
+                
+                <!-- VOTE/SIGN-FUND/CLOSE section 1 -->
+                <table class="vert-columns table">
+                    <tr>
+                        <td><p class="td">Engage market CFO/FP&amp;A to develop a detailed budget for the acquisition—TD</p></td>
+                        <td></td>
+                        <td><p class="td l c"><span class="field-tip"><img src="assets/images/star_icon_sm.png" style="max-width: 30px; width:30px; height:auto;" />
+                            <span class="tip-content"><strong>Pre-Close Conditions</strong><br />This is closely coordinated with Pre-Close Integration Activity.<br /><br />
+                                Begin work on all closing conditions, per purchase agreement, as well as on a few key other areas, including:<br /><br />
+&bull; Contract and lease assignments<br />
+&bull; Credentialing, if needed<br />
+&bull; Accounting, tax, treasury pre-close activities, including GL mapping, asset allocation, PC/MSO Split, funds flow, 3rd party appraisals needed—suggest setting up a separate call for these activities<br />
+&bull; Insurance-related pre-closing activities</span></span><br />Begin work on all pre-closing conditions—TD, JLD, C</p></td>
+                        <td></td>
+                        <td><p class="c"><span class="field-tip"><img src="assets/images/star_icon_sm.png" style="max-width: 30px; width:30px; height:auto;" />
+                            <span class="tip-content left"><strong>Wisdom/Communications/People Services</strong><br />Engage Wisdom/Communications to start planning Day 1 Celebration:<br />
+
+&bull; Video and letter from KT<br />
+&bull; DaVita swag (pins, pens)<br />
+&bull; Balloons, as needed<br />
+&bull; DaVita story presentation<br />
+&bull; People Services benefits presentation<br /><br />                            
+Coordinate with Seller site administrators to get people count and prepare Day 1 Celebration logistics.</span></span><br />Begin planning for Day 1 Celebrations—C</p></td>
+                        <td><p class="c ic">Kickoff Pre-Close Integration (with both sides)—discuss process, governance, timeline, cadence of check-ins, etc.—C, IC</p></td>
+                    </tr>
+                    <tr>
+                        <td><p class="td">Schedule a closing go/no-go with Steering Committee 2 weeks before proposed closing date, and discuss the ability to meet close deadline, willingness to close over items not complete and make a plan—TD</p></td>
+                        <td></td>
+                        <td><p class="td">Obtain account information and create funds flow to be approved by JLD and the Seller—TD</p></td>
+                        <td></td>
+                        <td><p class="c"><span class="field-tip"><img src="assets/images/star_icon_sm.png" style="max-width: 30px; width:30px; height:auto;" />
+                            <span class="tip-content left"><strong>Vet All Announcements</strong><br /><br />All announcements need to vetted by JLD and People Services.</span></span><br />Engage the Communications team for Day 1 announcements and creation of FAQs—C</p></td>
+                        <td><p class="c ic ml">Vet the post-close integration buckets/plans with joint Steering Committee and finance to prioritize and slot based on cost/benefit—C, IC, ML</p></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><p class="td">If any documents have substantial changes or new transaction documents were added post-signing and pre-close, receive BESS approval again (contact Robyn Raveling to verify)—TD</p></td>
+                        <td><p>Meet all pre-closing conditions</p></td>
+                        <td></td>
+                        <td></td>
+                        <td><p class="c ic"><span class="field-tip"><img src="assets/images/star_icon_sm.png" style="max-width: 30px; width:30px; height:auto;" />
+                            <span class="tip-content left">Conduit and Integration Coordination Lead need to keep a comprehensive calendar of all training requested and required so as not to overwhelm physicians or any one site.</span></span><br />Integration leads to develop training/change management plan to be implemented at close for anything changing how the Seller's teammates operate (think new boss, reporting structure, IDs, emails, laptops, protocol—anything integration does that affects users)—C, IC</p></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>&nbsp;</td>
+                        <td><p class="td">Obtain all transaction document signatures from the Seller and DMG, then send to JLD to hold until closing—TD</p></td>
+                        <td></td>
+                        <td><p class="c">Schedule town halls with DMG executives for the first week—C</p></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td width="16.667%"></td>
+                        <td width="16.667%">&nbsp;</td>
+                        <td width="16.667%"><p class="td">Send funds flow, final transaction documents and BESS signatures to Treasury (including sign-off from TD and VP)—TD</p></td>
+                        <td width="16.667%"></td>
+                        <td width="16.667%"></td>
+                        <td width="16.667%"></td>
+                    </tr>
+                    <tr>
+                        <td width="16.667%"></td>
+                        <td width="16.667%"></td>
+                        <td width="16.667%"></td>
+                        <td width="16.667%"></td>
+                        <td width="16.667%"></td>
+                        <td width="16.667%"></td>
+                    </tr>
+                    <tr>
+                        <td width="16.667%"></td>
+                        <td width="16.667%"></td>
+                        <td width="16.667%"></td>
+                        <td width="16.667%"></td>
+                        <td width="16.667%"></td>
+                        <td width="16.667%"></td>
+                    </tr>
+                    <tr>
+                        <td width="16.667%"></td>
+                        <td width="16.667%"></td>
+                        <td width="16.667%"><p align="center">Fund/Close</p></td>
+                        <td width="16.667%"></td>
+                        <td width="16.667%"></td>
+                        <td width="16.667%"></td>
+                    </tr>
+                </table>
+                <!-- /VOTE/SIGN-FUND/CLOSE section 1 -->
+                
+            </div>
+            <!-- /Vote-Sign section -->
+
+
+            <br />
+            <br />
+            <br />
+            <br />
+            
+            <!-- Post CLOSE section -->
+            <div class="post-close overwrap">
+                <a name="post-close" id="post-close"></a>
+                <h2><img src="assets/images/compass_ico.png"  width="50" /> Post-Close</h2>
+                
+                <p class="intro-text">Post-Closing is an exciting and overwhelming time for our new teammates. They may be going through a lot of changes and have yet
+to learn all about the DaVita culture, programming and how we do business. All those involved in the transactions should be sensitive to this and make an effort to be helpful, proactive and patient.</p>
+                
+                <p class="intro-text">Integration planning will kickoff, and subject matter leads will be working closely together to develop plans, prioritize and execute.</p>
+                
+                 <!--- POST-CLOSE section 1 -->
+                <div class="vert-columns titles">
+                    <div class="sixth">Transaction</div>
+                    <div class="sixth">Approvals</div>
+                    <div class="sixth">Legal</div>
+                    <div class="sixth">Diligence</div>
+                    <div class="sixth">Communication/<br />Information/Education</div>
+                    <div class="sixth">Integration</div>
+                </div>
+                
+                
+                
+                <!-- POST CLOSE section 1 -->
+                <table class="vert-columns table">
+                    <tr>
+                        <td width="16.667%"><p class="td">Request a data file for this project's data room and send to Conduit—TD</p></td>
+                        <td width="16.667%"></td>
+                        <td width="16.667%"></td>
+                        <td width="16.667%"></td>
+                        <td width="16.667%"><p>Day 1 Celebrations</p></td>
+                        <td width="16.667%"><p class="ic c">Conduct the kickoff integration (message adherence to reporting cadence, process, accountability, etc.). Message prioritization of integration initiatives and ask for functional leads to jointly develop detailed plans, cost/benefit, resourcing needs, etc., to add to an already begun pre-close worksheet/workplan—IC, C</p></td>
+                    </tr>
+                    <tr>
+                        <td width="16.667%"><p class="td">Work with finance, accounting, real estate, and legal to make sure all post-closing adjustments and activities are drawn to a close—TD</p></td>
+                        <td width="16.667%"></td>
+                        <td width="16.667%"></td>
+                        <td width="16.667%"></td>
+                        <td width="16.667%"><p>Host HR presentation for onboarding of employees</p></td>
+                        <td width="16.667%"><p class="ic">Schedule and conduct check-in/reporting calls for integration leads to present to Steering Committee/DMG executives (as applicable), so as to monitor progress, resolve issues, etc.—IC</p></td>
+                    </tr>
+                    <tr>
+                        <td width="16.667%"></td>
+                        <td width="16.667%">&nbsp;</td>
+                        <td width="16.667%"></td>
+                        <td width="16.667%"></td>
+                        <td width="16.667%"><p>Host town halls for Q&amp;A</p></td>
+                        <td width="16.667%"></td>
+                    </tr>
+                    <tr>
+                        <td width="16.667%"></td>
+                        <td width="16.667%">&nbsp;</td>
+                        <td width="16.667%"></td>
+                        <td width="16.667%"></td>
+                        <td width="16.667%"><p><span class="field-tip"><img src="assets/images/star_icon_sm.png" style="max-width: 30px; width:30px; height:auto;" />
+                            <span class="tip-content left"><strong>Change Management</strong><br /><br />It is important to train/provide change management on areas of change to the new teammates. Ask the diligence leads to ensure they incorporate this into their Day 1 planning.<br /><br />Conduit and Integration Coordination Lead need to keep a comprehensive calendar of all training requested and required so as not to overwhelm physicians or any one site.</span></span><br />Host training for other areas of change</p></td>
+                        <td width="16.667%"></td>
+                    </tr>              
+                </table>
+                <!-- /POST CLOSE section 1 -->
+                
+                
+                
+                
+                
+                <br clear="all" />                
+                
+                <p><img src="assets/images/Davita_Logo.png" width="224" style="float:right;" /></p>
+            </div>
+            <!-- /Post Close section -->
+
+            
+	</header>
+	<!-- /Header -->
+
+
+<div id="footer" class="bottom"></div>
+<!---TESTING MODAL WINDOW ----------------------->
+
+
+<!---TESTING MODAL WINDOW ----------------------->
+
+
+	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/noelboss/featherlight/1.5.0/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	<script src="assets/js/headroom.min.js"></script>
+	<script src="assets/js/jQuery.headroom.min.js"></script>
+	<script src="assets/js/template.js"></script>
+
+<script type="text/javascript">
+
+$( ".nav1" ).click(function(e) {
+  $( '.r' ).toggleClass( "role-highlight" );
+  $( '.nav1' ).toggleClass( "nav-highlight" );
+  $( '.nav1 .bully' ).toggleClass( "bully-x" );    
+  $( '.nav2, .nav3, .nav4, .nav5, .nav6, .nav7' ).toggleClass( "dimmer" );
+  e.stopPropagation();
+});
+    
+$( ".nav2" ).click(function(e) {    
+  $( '.td' ).toggleClass( "role-highlight" );
+  $( '.nav2' ).toggleClass( "nav-highlight" );
+  $( '.nav2 .bully' ).toggleClass( "bully-x" );     
+  $( '.nav1, .nav3, .nav4, .nav5, .nav6, .nav7' ).toggleClass( "dimmer" );
+  e.stopPropagation();
+});
+
+$( ".nav3" ).click(function(e) {
+  $( '.c' ).toggleClass( "role-highlight" );
+  $( '.nav3' ).toggleClass( "nav-highlight" );  
+  $( '.nav3 .bully' ).toggleClass( "bully-x" );     
+  $( '.nav1, .nav2, .nav4, .nav5, .nav6, .nav7' ).toggleClass( "dimmer" );    
+  e.stopPropagation();
+});
+    
+$( ".nav4" ).click(function(e) {
+  $( '.ic' ).toggleClass( "role-highlight" );
+  $( '.nav4' ).toggleClass( "nav-highlight" );
+  $( '.nav4 .bully' ).toggleClass( "bully-x" );     
+  $( '.nav1, .nav2, .nav3, .nav5, .nav6, .nav7' ).toggleClass( "dimmer" );   
+  e.stopPropagation();
+});
+    
+$( ".nav5" ).click(function(e) {
+  $( '.l' ).toggleClass( "role-highlight" );
+  $( '.nav5' ).toggleClass( "nav-highlight" );
+  $( '.nav5 .bully' ).toggleClass( "bully-x" );     
+  $( '.nav1, .nav2, .nav3, .nav4, .nav6, .nav7' ).toggleClass( "dimmer" );    
+  e.stopPropagation();
+});
+    
+$( ".nav6" ).click(function(e) {
+  $( '.ml' ).toggleClass( "role-highlight" );
+  $( '.nav6' ).toggleClass( "nav-highlight" ); 
+  $( '.nav6 .bully' ).toggleClass( "bully-x" );     
+  $( '.nav1, .nav2, .nav3, .nav4, .nav5, .nav7' ).toggleClass( "dimmer" );    
+  e.stopPropagation();
+});    
+    
+$( ".nav7" ).click(function(e) {
+  $( '.sme' ).toggleClass( "role-highlight" );
+  $( '.nav7' ).toggleClass( "nav-highlight" );
+  $( '.nav7 .bully' ).toggleClass( "bully-x" );     
+  $( '.nav1, .nav2, .nav3, .nav4, .nav5, .nav6' ).toggleClass( "dimmer" );    
+  e.stopPropagation();
+});        
+
+</script>   
+
+
+<script type="text/javascript">
+$(function() {
+    var header = $(".staticnav");
+    $(window).scroll(function() {    
+        var scroll = $(window).scrollTop();
+    
+        if (scroll >= 500) {
+            header.removeClass('staticnav').addClass("stickynav");
+        } else {
+            header.removeClass("stickynav").addClass('staticnav');
+        }
+    });
+});
+</script>
+
+
+
+
+</body>
+</html>
